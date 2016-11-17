@@ -4,6 +4,7 @@ services:
         image: openag/rpi_brain
         expose:
             - 5000
+            - 11311
         ports:
             - 11311:11311
         devices:
